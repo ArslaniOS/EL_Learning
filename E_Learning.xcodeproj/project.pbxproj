@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6B15172C81FB8F000E188A /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15162C81FB8F000E188A /* CoursesView.swift */; };
+		BE6B15192C81FDAC000E188A /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15182C81FDAC000E188A /* CourseViewModel.swift */; };
+		BE6B151B2C820039000E188A /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B151A2C820039000E188A /* CourseDetailView.swift */; };
+		BE6B151D2C820356000E188A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B151C2C820356000E188A /* CartView.swift */; };
+		BE6B15222C823370000E188A /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15212C823370000E188A /* CartViewModel.swift */; };
+		BE6B15282C8236D5000E188A /* HorizontalTapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15272C8236D5000E188A /* HorizontalTapBar.swift */; };
+		BE6B152B2C82371E000E188A /* ELBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B152A2C82371E000E188A /* ELBackButton.swift */; };
+		BE6B152E2C824352000E188A /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B152D2C824352000E188A /* CourseCardView.swift */; };
+		BE6B15302C8245E5000E188A /* CourseDetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B152F2C8245E5000E188A /* CourseDetailCardView.swift */; };
+		BE6B15332C825727000E188A /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15312C825727000E188A /* ToastView.swift */; };
+		BE6B15352C825C15000E188A /* AddCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15342C825C15000E188A /* AddCartButton.swift */; };
+		BE6B15372C825C85000E188A /* EnrollCourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B15362C825C85000E188A /* EnrollCourseButton.swift */; };
+		BE6B153B2C82653D000E188A /* EnrollCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B153A2C82653D000E188A /* EnrollCoursesView.swift */; };
+		BEE97B432C826C3200C7F9D2 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE97B422C826C3200C7F9D2 /* CourseModel.swift */; };
+		BEF29B5E2C81F95800FEA716 /* E_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF29B5D2C81F95800FEA716 /* E_LearningApp.swift */; };
+		BEF29B622C81F95A00FEA716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF29B612C81F95A00FEA716 /* Assets.xcassets */; };
+		BEF29B652C81F95A00FEA716 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF29B642C81F95A00FEA716 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE6B15162C81FB8F000E188A /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		BE6B15182C81FDAC000E188A /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		BE6B151A2C820039000E188A /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		BE6B151C2C820356000E188A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BE6B15212C823370000E188A /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		BE6B15272C8236D5000E188A /* HorizontalTapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTapBar.swift; sourceTree = "<group>"; };
+		BE6B152A2C82371E000E188A /* ELBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELBackButton.swift; sourceTree = "<group>"; };
+		BE6B152D2C824352000E188A /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
+		BE6B152F2C8245E5000E188A /* CourseDetailCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailCardView.swift; sourceTree = "<group>"; };
+		BE6B15312C825727000E188A /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		BE6B15342C825C15000E188A /* AddCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartButton.swift; sourceTree = "<group>"; };
+		BE6B15362C825C85000E188A /* EnrollCourseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollCourseButton.swift; sourceTree = "<group>"; };
+		BE6B153A2C82653D000E188A /* EnrollCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollCoursesView.swift; sourceTree = "<group>"; };
+		BEE97B422C826C3200C7F9D2 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		BEF29B5A2C81F95800FEA716 /* E_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF29B5D2C81F95800FEA716 /* E_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_LearningApp.swift; sourceTree = "<group>"; };
+		BEF29B612C81F95A00FEA716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF29B642C81F95A00FEA716 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF29B572C81F95800FEA716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6B151E2C823340000E188A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BEE97B402C826BF600C7F9D2 /* VM */,
+				BE6B151C2C820356000E188A /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		BE6B15232C823428000E188A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15322C825727000E188A /* ToastView */,
+				BE6B15252C823691000E188A /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BE6B15252C823691000E188A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15292C823700000E188A /* Button */,
+				BE6B15262C82369B000E188A /* TopTabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BE6B15262C82369B000E188A /* TopTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15272C8236D5000E188A /* HorizontalTapBar.swift */,
+			);
+			path = TopTabBar;
+			sourceTree = "<group>";
+		};
+		BE6B15292C823700000E188A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B152A2C82371E000E188A /* ELBackButton.swift */,
+				BE6B15342C825C15000E188A /* AddCartButton.swift */,
+				BE6B15362C825C85000E188A /* EnrollCourseButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		BE6B152C2C824345000E188A /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B152D2C824352000E188A /* CourseCardView.swift */,
+				BE6B152F2C8245E5000E188A /* CourseDetailCardView.swift */,
+				BE6B153A2C82653D000E188A /* EnrollCoursesView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		BE6B15322C825727000E188A /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15312C825727000E188A /* ToastView.swift */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		BE6B15382C8261F3000E188A /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15182C81FDAC000E188A /* CourseViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		BEE97B402C826BF600C7F9D2 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B15212C823370000E188A /* CartViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		BEE97B412C826C2300C7F9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEE97B422C826C3200C7F9D2 /* CourseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF29B512C81F95800FEA716 = {
+			isa = PBXGroup;
+			children = (
+				BEF29B5C2C81F95800FEA716 /* E_Learning */,
+				BEF29B5B2C81F95800FEA716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF29B5B2C81F95800FEA716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF29B5A2C81F95800FEA716 /* E_Learning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF29B5C2C81F95800FEA716 /* E_Learning */ = {
+			isa = PBXGroup;
+			children = (
+				BEF29B6B2C81F9CA00FEA716 /* Main */,
+				BE6B15232C823428000E188A /* Shared */,
+				BEF29B5D2C81F95800FEA716 /* E_LearningApp.swift */,
+				BEF29B612C81F95A00FEA716 /* Assets.xcassets */,
+				BEF29B632C81F95A00FEA716 /* Preview Content */,
+			);
+			path = E_Learning;
+			sourceTree = "<group>";
+		};
+		BEF29B632C81F95A00FEA716 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF29B642C81F95A00FEA716 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEF29B6B2C81F9CA00FEA716 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BE6B151E2C823340000E188A /* Cart */,
+				BEF29B6C2C81F9D800FEA716 /* Courses */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BEF29B6C2C81F9D800FEA716 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				BEE97B412C826C2300C7F9D2 /* Model */,
+				BE6B15382C8261F3000E188A /* VM */,
+				BE6B152C2C824345000E188A /* Cards */,
+				BE6B15162C81FB8F000E188A /* CoursesView.swift */,
+				BE6B151A2C820039000E188A /* CourseDetailView.swift */,
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF29B592C81F95800FEA716 /* E_Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF29B682C81F95A00FEA716 /* Build configuration list for PBXNativeTarget "E_Learning" */;
+			buildPhases = (
+				BEF29B562C81F95800FEA716 /* Sources */,
+				BEF29B572C81F95800FEA716 /* Frameworks */,
+				BEF29B582C81F95800FEA716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = E_Learning;
+			productName = E_Learning;
+			productReference = BEF29B5A2C81F95800FEA716 /* E_Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF29B522C81F95800FEA716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BEF29B592C81F95800FEA716 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BEF29B552C81F95800FEA716 /* Build configuration list for PBXProject "E_Learning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF29B512C81F95800FEA716;
+			productRefGroup = BEF29B5B2C81F95800FEA716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF29B592C81F95800FEA716 /* E_Learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF29B582C81F95800FEA716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF29B652C81F95A00FEA716 /* Preview Assets.xcassets in Resources */,
+				BEF29B622C81F95A00FEA716 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF29B562C81F95800FEA716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6B15302C8245E5000E188A /* CourseDetailCardView.swift in Sources */,
+				BE6B152B2C82371E000E188A /* ELBackButton.swift in Sources */,
+				BE6B153B2C82653D000E188A /* EnrollCoursesView.swift in Sources */,
+				BE6B151D2C820356000E188A /* CartView.swift in Sources */,
+				BE6B15352C825C15000E188A /* AddCartButton.swift in Sources */,
+				BE6B15332C825727000E188A /* ToastView.swift in Sources */,
+				BEF29B5E2C81F95800FEA716 /* E_LearningApp.swift in Sources */,
+				BE6B152E2C824352000E188A /* CourseCardView.swift in Sources */,
+				BE6B15222C823370000E188A /* CartViewModel.swift in Sources */,
+				BE6B15192C81FDAC000E188A /* CourseViewModel.swift in Sources */,
+				BE6B15372C825C85000E188A /* EnrollCourseButton.swift in Sources */,
+				BE6B15282C8236D5000E188A /* HorizontalTapBar.swift in Sources */,
+				BE6B151B2C820039000E188A /* CourseDetailView.swift in Sources */,
+				BEE97B432C826C3200C7F9D2 /* CourseModel.swift in Sources */,
+				BE6B15172C81FB8F000E188A /* CoursesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEF29B662C81F95A00FEA716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF29B672C81F95A00FEA716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF29B692C81F95A00FEA716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E_Learning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.E-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF29B6A2C81F95A00FEA716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E_Learning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.E-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF29B552C81F95800FEA716 /* Build configuration list for PBXProject "E_Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF29B662C81F95A00FEA716 /* Debug */,
+				BEF29B672C81F95A00FEA716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF29B682C81F95A00FEA716 /* Build configuration list for PBXNativeTarget "E_Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF29B692C81F95A00FEA716 /* Debug */,
+				BEF29B6A2C81F95A00FEA716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF29B522C81F95800FEA716 /* Project object */;
+}
