@@ -16,6 +16,7 @@ import SwiftUI
             self.courses = [
                 Course(id: UUID(), title: "SwiftUI Basics", description: "Learn the basics of SwiftUI.", price: 99.99, imageName: "Base"),
                 Course(id: UUID(), title: "Advanced SwiftUI", description: "Dive deeper into advanced SwiftUI techniques.", price: 149.99, imageName: "pro"),
+                Course(id: UUID(), title: "Combine Framework", description: "Introduction to the Combine framework.", price: 119.99, imageName: "combine"),
                 Course(id: UUID(), title: "Combine Framework", description: "Introduction to the Combine framework.", price: 119.99, imageName: "combine")
             ]
         }
@@ -24,10 +25,18 @@ import SwiftUI
            var enrolledCourses: [Course] {
                courses.filter { $0.isEnrolled }
            }
+        var favCourses: [Course] {
+            courses.filter { $0.isFav }
+        }
         
         func toggleEnrollment(for course: Course) {
               if let index = courses.firstIndex(where: { $0.id == course.id }) {
                   courses[index].isEnrolled.toggle()
+              }
+          }
+        func toggleFav(for course: Course) {
+              if let index = courses.firstIndex(where: { $0.id == course.id }) {
+                  courses[index].isFav.toggle()
               }
           }
     }

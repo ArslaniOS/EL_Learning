@@ -25,6 +25,7 @@ struct CoursesView: View {
                                       NavigationLink(destination: CourseDetailView(course: course)) {
                                           CourseCardView(course: course, cartVM: cartVM, viewModel: viewModel)
                                       }
+                              
                                   }
                               }
                               .padding()
@@ -46,17 +47,23 @@ struct CoursesView: View {
                                                    .padding(.bottom)
                                                }
                           }
-                          .navigationTitle("Courses")   .navigationBarItems(trailing:
-                                                                                NavigationLink(destination: CartView(cartVM: cartVM)) {
+                          .navigationTitle("Courses") 
+                        
+                            .navigationBarItems(leading:
+                                                    NavigationLink(destination:FavoriteCardView(viewModel:viewModel)) {
+                                HStack {
+                                    Image(systemName: "heart")}})
+                            
+                          .navigationBarItems(trailing:
+                            NavigationLink(destination: CartView(cartVM: cartVM)) {
                               HStack {
                                   Image(systemName: "cart")
-                                  Text("\(cartVM.cartItems.count)")
-                              }
-                          }
-                          )
+                                Text("\(cartVM.cartItems.count)")}})
+                   
+                        
                }
-         
-           }      .toast(isShowing:$viewModel.isShowingToast, message:viewModel.toastMessage ?? "")
+ 
+           }  .toast(isShowing:$viewModel.isShowingToast, message:viewModel.toastMessage ?? "")
     
        }
 }

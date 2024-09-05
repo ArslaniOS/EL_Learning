@@ -10,7 +10,7 @@ import SwiftUI
 struct CourseDetailCardView: View {
     let course:Course
     var body: some View {
-        VStack(alignment: .leading) {
+        LazyVStack(alignment: .leading) {
             // Display the course image
             Image(course.imageName)
                 .resizable()

@@ -13,13 +13,13 @@ struct CourseDetailView: View {
    
      var body: some View {
          ScrollView {
-             VStack{
-                 VStack{
+             LazyVStack{
+                 LazyVStack{
                      HorizontalTabBar(title:course.title)
                  }.padding([.horizontal, .bottom])
                      .background(Color.white.ignoresSafeArea())
              }
-             VStack{
+             LazyVStack{
                  CourseDetailCardView(course: course)
              }
     

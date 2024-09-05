@@ -19,6 +19,8 @@ struct EnrollCourseButton: View {
                 .foregroundColor(isEnrolled ? .green:.gray)
                 .padding()
                 .cornerRadius(8)
+                .dynamicTypeSize(DynamicTypeSize.small...DynamicTypeSize.xxxLarge)
+
         }
     }
 }

@@ -13,9 +13,10 @@ struct Course: Identifiable,Equatable {
       let price: Double
       let imageName: String
       var isEnrolled: Bool = false
+    var isFav: Bool = false 
 }
 
 struct CartItem:Identifiable {
-    var id: ObjectIdentifier?
+    var id: UUID?
     let course: Course
 }

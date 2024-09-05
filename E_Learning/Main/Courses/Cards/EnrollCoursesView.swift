@@ -12,7 +12,7 @@ struct EnrolledCourseView: View {
 
     var body: some View {
         GeometryReader { geometry in
-            VStack {
+            LazyVStack {
                 Image(course.imageName)
                     .resizable()
                     .scaledToFit()
@@ -34,6 +34,6 @@ struct EnrolledCourseView: View {
 }
 
 
-//#Preview {
-//    EnrollCoursesView()
-//}
+#Preview {
+    EnrolledCourseView(course: Course(id: UUID(), title: "Sample Course", description: "This is a detailed description of the course.", price: 99.99, imageName: "Base"))
+}
